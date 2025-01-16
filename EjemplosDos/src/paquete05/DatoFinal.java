@@ -27,7 +27,6 @@ public class DatoFinal {
     public static double obtenerMejorNota(double [] a){
         double mejor = 0;
         for (int f = 0; f < a.length; f++){
-            mejor = 0;
             if(a[f] > mejor){
                 mejor = a[f];
             }

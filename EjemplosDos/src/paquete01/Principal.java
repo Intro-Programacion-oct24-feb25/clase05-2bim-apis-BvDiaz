@@ -44,13 +44,15 @@ public class Principal {
                 + "Ciudad: %s\n"
                 + "Empresa: %s\n"
                 + "Direccion: %s\n"
-                + "Promedio: %.2f\n",
+                + "Promedio: %.2f\n"
+                + "Nota mas alta: %.2f\n",
                 nombre,
                 apellidoRetornado,
                 ciudad,
                 nombreEmpresa,
                 direccionEmpresa,
-                promedio);
+                promedio,
+                mejorNota);
     }
     
 }
